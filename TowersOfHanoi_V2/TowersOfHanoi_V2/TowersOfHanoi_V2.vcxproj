@@ -145,7 +145,7 @@
       <AdditionalDependencies>freeglut.lib;freeglut_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(SolutionDir)Thirdparty/freeglut/bin/x64/freeglut.dll" "$(OutDir)"</Command>
+      <Command>copy "$(SolutionDir)Thirdparty\freeglut\bin\freeglut.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
