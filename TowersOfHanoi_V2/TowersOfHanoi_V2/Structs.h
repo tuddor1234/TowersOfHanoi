@@ -10,4 +10,4 @@ struct Vector3 { int x, y, z; };
 
 
 
-#define numberOfDisks 3
+#define NUMBER_OF_DISKS 5

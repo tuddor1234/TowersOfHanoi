@@ -1,6 +1,6 @@
 #pragma once
 #include <vector>
-#include <gl/glut.h>
+#include <GL/glut.h>
 
 #include "Structs.h"
 #include "Disk.h"

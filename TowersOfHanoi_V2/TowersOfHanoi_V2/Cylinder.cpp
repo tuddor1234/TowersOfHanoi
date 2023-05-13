@@ -12,7 +12,7 @@ void Cylinder::Draw()
 	GLfloat x = 0.0;
 	GLfloat y = 0.0;
 	GLfloat angle = 0.0;
-	GLfloat angle_stepsize = 0.1;
+	GLfloat angle_stepsize = 0.1f;
 
 	glPushMatrix();
 
@@ -24,8 +24,8 @@ void Cylinder::Draw()
 	glBegin(GL_QUAD_STRIP);
 	angle = 0.0;
 	while (angle < 2 * PI) {
-		x = radius * cos(angle);
-		y = radius * sin(angle);
+		x = (GLfloat) radius * cos(angle);
+		y = (GLfloat) radius * sin(angle);
 		glVertex3f(x, y, height);
 		glVertex3f(x, y, 0.0);
 		angle = angle + angle_stepsize;

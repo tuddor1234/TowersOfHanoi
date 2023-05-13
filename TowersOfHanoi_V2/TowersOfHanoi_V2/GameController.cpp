@@ -25,7 +25,7 @@ void GameController::Down()
 	{
 		selectedDisk = nullptr;
 
-		if (poles[poleIndex]->GetNumberOfDisks() == numberOfDisks && poleIndex > 0)
+		if (poles[poleIndex]->GetNumberOfDisks() == NUMBER_OF_DISKS && poleIndex > 0)
 		{
 			GameOver();
 		}

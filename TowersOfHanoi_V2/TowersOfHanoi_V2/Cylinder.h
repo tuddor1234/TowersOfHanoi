@@ -9,8 +9,8 @@
 
 class Cylinder
 {
-	float radius;
-	float height;
+	GLfloat radius;
+	GLfloat height;
 	Vector3 color { 100,200, 140 };
 	
 	Vector3 NomalPoleColor{ 80 ,100, 100 };
